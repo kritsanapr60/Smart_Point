@@ -13,18 +13,28 @@
     <!------ Include the above in your HEAD tag ---------->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/login.css">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/webfonts/fa-solid-900.woff2" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link href="fontawesome-free-5.10.2-desktop/css/fontawesome.css" rel="stylesheet">
     <style>
         i{
             color: white;
         }
+        body {
+            background-image: url("img/bglog.png");
+            height: 200%;
+            /* Center and scale the image nicely */
+            background-position: left bottom; 
+            background-repeat: no-repeat;
+        }
+
     </style>
 </head>
-<body style="background-color: #a400d6;"> 
-    <br>
+<!-- #40A554; -->
+<body > 
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <a href="index.html"><i class="fa fa-4x fa-reply-all" aria-hidden="true"></i></a>
+                <a href="index.html"><-</a>
             </div>
         </div>
     </div>
@@ -32,7 +42,6 @@
     <div class="wrapper fadeInDown">
         <div id="formContent">
             <!-- Tabs Titles -->
-            
             <!-- Icon -->
             <div class="fadeIn first">
                 <img src="img/logo.gif" id="icon" alt="User Icon" />
@@ -40,15 +49,15 @@
 
             <!-- Login Form -->
             <form>
-                <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-                <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+                <input type="text" id="login" class="fadeIn second" name="login" placeholder='รหัสนักศึกษา'>
+                <input type="text" id="password" class="fadeIn third" name="login" placeholder="รหัสผ่าน">
                 <hr width="200px">
                 <input type="submit" class="fadeIn fourth" value="Log In">
             </form>
 
             <!-- Remind Passowrd -->
             <div id="formFooter">
-                <a class="underlineHover" href="regis.html"> สมาชิกใหม่</a>
+                <a class="underlineHover" href="register.html"> สมาชิกใหม่</a>
             </div>
 
         </div>
